@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6_1"
+            android:layout_width="400dp"
+            android:layout_height="280dp"
+            android:src="@drawable/img_13" />
+
+        <TextView
+            android:id="@+id/textView6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전라남도, 전라북도" />
+
+        <TextView
+            android:id="@+id/textView6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://www.namdokorea.com/" />
+
+        <Button
+            android:id="@+id/btn6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전라남도 관광사이트" />
+
+        <TextView
+            android:id="@+id/textView6_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://tour.jb.go.kr/index.do" />
+
+        <Button
+            android:id="@+id/btn6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전라북도 관광 사이트" />
+
+        <Button
+            android:id="@+id/btn6_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈으로" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

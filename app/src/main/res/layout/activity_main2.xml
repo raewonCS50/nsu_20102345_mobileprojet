@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2_1"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:src="@drawable/img_14" />
+
+
+        <ImageView
+            android:id="@+id/imageView2_2"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:src="@drawable/img_10" />
+
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="경기도" />
+
+        <TextView
+            android:id="@+id/textView2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수원화성" />
+
+        <TextView
+            android:id="@+id/textView2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://www.swcf.or.kr/" />
+
+        <Button
+            android:id="@+id/btn2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수원화성 홈페이지로" />
+
+        <Button
+            android:id="@+id/btn2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈으로" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
